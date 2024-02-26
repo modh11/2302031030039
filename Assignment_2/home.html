@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Product Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+        }
+        main {
+            padding: 1em;
+        }
+        .featured {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1em;
+            margin-top: 1em;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 1em;
+            text-align: center;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: box-shadow 0.3s;
+        }
+        .product:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .product img {
+            max-width: 100%;
+            height: 150px; /* Set a fixed height for all images */
+            object-fit: cover; /* Ensure images maintain aspect ratio */
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eco-Friendly Product Reviews</h1>
+        <p>Reviews and ratings for environmentally friendly products</p>
+        <nav>
+            <a href="reviwe.html">Reviews</a> | <a href="products.html">Products</a> | <a href="aboutus.html">About Us</a> | <a href="faq.html">FAQ</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Featured Products</h2>
+        <div class="featured">
+            <div class="product">
+                <img src="coffe.jpg" alt="Placeholder Image">
+                <h3>EcoBuddy Travel Coffee Mug</h3>
+                <p>Price: Rs 399</p>
+                <p>Rating: 4.5/5</p>
+            </div>
+            <div class="product">
+                <img src="basket.jpg" alt="Placeholder Image">
+                <h3>Cell Phone Basket</h3>
+                <p>Price: Rs 2,220</p>
+                <p>Rating: 4.0/5</p>
+            </div>
+            <div class="product">
+                <img src="belt.jpg" alt="Placeholder Image">
+                <h3>Vegan pet accessories</h3>
+                <p>Price: Rs 3000</p>
+                <p>Rating: 4.2/5</p>
+            </div>
+        </div>
+        <h3>There are some products.
+            <p>if you want to buy this products <a href="new.html">signup</a></p>
+        </h3>
+    </main>
+    <footer>
+        <p>&copy; 2024 Eco-Friendly Product Reviews. All rights reserved.</p>
+    </footer>
+</body>
+</html>
